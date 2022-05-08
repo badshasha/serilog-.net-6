@@ -28,3 +28,41 @@
 2022-05-08 08:10:26.519 +05:30 [INF] Executed action logger.Controllers.WeatherForecastController.simple (logger) in 122.226ms
 2022-05-08 08:10:26.520 +05:30 [INF] Executed endpoint 'logger.Controllers.WeatherForecastController.simple (logger)'
 2022-05-08 08:10:26.520 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/WeatherForecast/simple - - - 200 - text/plain;+charset=utf-8 147.9125ms
+05/08/2022 08:23:14 +05:30 [] - Message : Now listening on: "https://localhost:7171"
+05/08/2022 08:23:14 +05:30 [] - Message : Now listening on: "http://localhost:5171"
+05/08/2022 08:23:14 +05:30 [] - Message : Application started. Press Ctrl+C to shut down.
+05/08/2022 08:23:14 +05:30 [] - Message : Hosting environment: "Development"
+05/08/2022 08:23:14 +05:30 [] - Message : Content root path: "C:\Users\_shavendra_badshasha\Desktop\api\logger\logger\"
+05/08/2022 08:23:15 +05:30 [] - Message : Request starting HTTP/2 GET https://localhost:7171/swagger/index.html - -
+05/08/2022 08:23:15 +05:30 [] - Message : Request finished HTTP/2 GET https://localhost:7171/swagger/index.html - - - 200 - text/html;charset=utf-8 235.2002ms
+05/08/2022 08:23:15 +05:30 [] - Message : Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - -
+05/08/2022 08:23:15 +05:30 [] - Message : Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - - - 200 11939 application/javascript;+charset=utf-8 3.4226ms
+05/08/2022 08:23:15 +05:30 [] - Message : Request starting HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - -
+05/08/2022 08:23:15 +05:30 [] - Message : Request finished HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 93.8587ms
+05/08/2022 08:23:19 +05:30 [] - Message : Request starting HTTP/2 GET https://localhost:7171/WeatherForecast/simple - -
+05/08/2022 08:23:19 +05:30 [] - Message : Executing endpoint '"logger.Controllers.WeatherForecastController.simple (logger)"'
+05/08/2022 08:23:19 +05:30 [] - Message : Route matched with "{action = \"simple\", controller = \"WeatherForecast\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult simple()" on controller "logger.Controllers.WeatherForecastController" ("logger").
+05/08/2022 08:23:19 +05:30 [] - Message : simple Action executed
+05/08/2022 08:23:19 +05:30 [] - Message : Executing "OkObjectResult", writing value of type '"System.String"'.
+05/08/2022 08:23:19 +05:30 [] - Message : Executed action "logger.Controllers.WeatherForecastController.simple (logger)" in 125.9189ms
+05/08/2022 08:23:19 +05:30 [] - Message : Executed endpoint '"logger.Controllers.WeatherForecastController.simple (logger)"'
+05/08/2022 08:23:19 +05:30 [] - Message : Request finished HTTP/2 GET https://localhost:7171/WeatherForecast/simple - - - 200 - text/plain;+charset=utf-8 149.4565ms
+05/08/2022 08:24:10 +05:30 [Information] - Message : Now listening on: "https://localhost:7171"
+05/08/2022 08:24:10 +05:30 [Information] - Message : Now listening on: "http://localhost:5171"
+05/08/2022 08:24:10 +05:30 [Information] - Message : Application started. Press Ctrl+C to shut down.
+05/08/2022 08:24:10 +05:30 [Information] - Message : Hosting environment: "Development"
+05/08/2022 08:24:10 +05:30 [Information] - Message : Content root path: "C:\Users\_shavendra_badshasha\Desktop\api\logger\logger\"
+05/08/2022 08:24:11 +05:30 [Information] - Message : Request starting HTTP/2 GET https://localhost:7171/swagger/index.html - -
+05/08/2022 08:24:11 +05:30 [Information] - Message : Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - -
+05/08/2022 08:24:11 +05:30 [Information] - Message : Request finished HTTP/2 GET https://localhost:7171/swagger/index.html - - - 200 - text/html;charset=utf-8 259.0971ms
+05/08/2022 08:24:11 +05:30 [Information] - Message : Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - - - 200 11939 application/javascript;+charset=utf-8 15.6271ms
+05/08/2022 08:24:11 +05:30 [Information] - Message : Request starting HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - -
+05/08/2022 08:24:11 +05:30 [Information] - Message : Request finished HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 103.6936ms
+05/08/2022 08:24:24 +05:30 [Information] - Message : Request starting HTTP/2 GET https://localhost:7171/WeatherForecast/simple - -
+05/08/2022 08:24:24 +05:30 [Information] - Message : Executing endpoint '"logger.Controllers.WeatherForecastController.simple (logger)"'
+05/08/2022 08:24:24 +05:30 [Information] - Message : Route matched with "{action = \"simple\", controller = \"WeatherForecast\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult simple()" on controller "logger.Controllers.WeatherForecastController" ("logger").
+05/08/2022 08:24:24 +05:30 [Information] - Message : simple Action executed
+05/08/2022 08:24:24 +05:30 [Information] - Message : Executing "OkObjectResult", writing value of type '"System.String"'.
+05/08/2022 08:24:24 +05:30 [Information] - Message : Executed action "logger.Controllers.WeatherForecastController.simple (logger)" in 112.9355ms
+05/08/2022 08:24:24 +05:30 [Information] - Message : Executed endpoint '"logger.Controllers.WeatherForecastController.simple (logger)"'
+05/08/2022 08:24:24 +05:30 [Information] - Message : Request finished HTTP/2 GET https://localhost:7171/WeatherForecast/simple - - - 200 - text/plain;+charset=utf-8 141.4601ms

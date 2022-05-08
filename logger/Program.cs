@@ -14,7 +14,9 @@ var builder = WebApplication.CreateBuilder(args);
 // serilog configuration 
 try
 {
-    var logger = new LoggerConfiguration().WriteTo.File("Logs/log.txt",rollingInterval: RollingInterval.Day).CreateLogger();
+    
+
+    var logger = new LoggerConfiguration().ReadFrom.Configuration(builder.Configuration).CreateLogger();
     builder.Logging.ClearProviders();
     builder.Logging.AddSerilog(logger);
 }
