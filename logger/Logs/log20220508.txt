@@ -1,0 +1,30 @@
+2022-05-08 08:10:12.345 +05:30 [INF] Now listening on: https://localhost:7171
+2022-05-08 08:10:12.430 +05:30 [INF] Now listening on: http://localhost:5171
+2022-05-08 08:10:12.434 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-08 08:10:12.435 +05:30 [INF] Hosting environment: Development
+2022-05-08 08:10:12.435 +05:30 [INF] Content root path: C:\Users\_shavendra_badshasha\Desktop\api\logger\logger\
+2022-05-08 08:10:13.181 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/swagger/index.html - -
+2022-05-08 08:10:13.431 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/swagger/index.html - - - 200 - text/html;charset=utf-8 252.9759ms
+2022-05-08 08:10:13.452 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - -
+2022-05-08 08:10:13.461 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - - - 200 11939 application/javascript;+charset=utf-8 9.1295ms
+2022-05-08 08:10:13.581 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - -
+2022-05-08 08:10:13.680 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 98.9163ms
+2022-05-08 08:10:22.017 +05:30 [INF] Now listening on: https://localhost:7171
+2022-05-08 08:10:22.078 +05:30 [INF] Now listening on: http://localhost:5171
+2022-05-08 08:10:22.087 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-08 08:10:22.088 +05:30 [INF] Hosting environment: Development
+2022-05-08 08:10:22.088 +05:30 [INF] Content root path: C:\Users\_shavendra_badshasha\Desktop\api\logger\logger\
+2022-05-08 08:10:22.496 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/swagger/index.html - -
+2022-05-08 08:10:22.745 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/swagger/index.html - - - 200 - text/html;charset=utf-8 252.2607ms
+2022-05-08 08:10:22.769 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - -
+2022-05-08 08:10:22.773 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/_framework/aspnetcore-browser-refresh.js - - - 200 11939 application/javascript;+charset=utf-8 4.4721ms
+2022-05-08 08:10:22.881 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - -
+2022-05-08 08:10:23.007 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.7396ms
+2022-05-08 08:10:26.373 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7171/WeatherForecast/simple - -
+2022-05-08 08:10:26.379 +05:30 [INF] Executing endpoint 'logger.Controllers.WeatherForecastController.simple (logger)'
+2022-05-08 08:10:26.391 +05:30 [INF] Route matched with {action = "simple", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult simple() on controller logger.Controllers.WeatherForecastController (logger).
+2022-05-08 08:10:26.399 +05:30 [INF] simple Action executed
+2022-05-08 08:10:26.513 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-05-08 08:10:26.519 +05:30 [INF] Executed action logger.Controllers.WeatherForecastController.simple (logger) in 122.226ms
+2022-05-08 08:10:26.520 +05:30 [INF] Executed endpoint 'logger.Controllers.WeatherForecastController.simple (logger)'
+2022-05-08 08:10:26.520 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7171/WeatherForecast/simple - - - 200 - text/plain;+charset=utf-8 147.9125ms
