@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using logger.Model;
 
 
 namespace logger.data
@@ -10,6 +11,7 @@ namespace logger.data
 
         }
 
+        DbSet<Logger> logs { get; set; }
        
     }
 }
